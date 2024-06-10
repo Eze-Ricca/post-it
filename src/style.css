@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+  background-image: url("../public/26780.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #80062f;
+}
+main {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
