@@ -262,7 +262,7 @@ var E=Object.defineProperty;var C=(r,e,n)=>e in r?E(r,e,{enumerable:!0,configura
       <div class="card-check-delete">
         <input type="checkbox" />
         <button>
-          <img src="/post-it/trash-solid.svg" alt="Eliminar" />
+          <img src="/post-it/public/trash-solid.svg" alt="Eliminar" />
         </button>
       </div>
     `;const f=c.querySelector("p"),g=c.querySelector(".card-check-delete button"),v=c.querySelector(".card-check-delete input");f.addEventListener("dblclick",()=>{const x=f.textContent,l=document.createElement("input");l.type="text",l.value=x||"",f.replaceWith(l),l.addEventListener("blur",()=>{const m=l.value.trim();m?(f.textContent=m,l.replaceWith(f),q(o.id,m)):l.replaceWith(f)}),l.focus()}),v.addEventListener("change",x=>{x.target.checked?(g.style.display="block",g.addEventListener("click",()=>{c.remove(),R(o.id)})):g.style.display="none"}),s.appendChild(c)}function b(o){o.innerHTML="",A().forEach(c=>h(c,o))}function u(){return Date.now().toString(36)+Math.random().toString(36).substring(2,10)}return e.appendChild(n),r.appendChild(e)}(()=>{const r=document.querySelector("#app");M(r)})();
