@@ -265,7 +265,7 @@ export function page(el: HTMLElement) {
       <div class="card-check-delete">
         <input type="checkbox" />
         <button>
-          <img src="/post-it/trash-solid.svg" alt="Eliminar" />
+          <img src="/post-it/public/trash-solid.svg" alt="Eliminar" />
         </button>
       </div>
     `;
